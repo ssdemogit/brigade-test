@@ -1,2 +1,0 @@
-This is a brigade test
-Test successful
