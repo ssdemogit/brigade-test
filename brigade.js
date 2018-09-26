@@ -11,6 +11,7 @@ events.on("push", function(e, project) {
 
   // Now we want it to run these commands in order:
   node.tasks = [
+    "cp requirements.txt /src/app"
     "cd /src/app",
     "pip install -r requirements.txt",
     "cd /src/",
